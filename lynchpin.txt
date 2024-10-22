@@ -1,3 +1,6 @@
 2024-10-21 35%
 {'code': 0, 'data': {'progress': 35}, 'msg': ''}
 
+2024-10-22 0%
+{'code': 0, 'data': {'progress': 0}, 'msg': ''}
+
