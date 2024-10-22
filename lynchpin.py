@@ -5,7 +5,8 @@ import time
 from plyer import notification #通知弹窗库
 from time import sleep
 
-url = "https://ak.hypergryph.com/lynchpin/api/meta" #lynchpin URL
+#url = "https://ak.hypergryph.com/standbyherside/api/premeta" #StandByHerSide API（似乎是忘记密码提示？）
+url = "https://ak.hypergryph.com/lynchpin/api/meta" #lynchpin API
 active = True #初始化状态
 
 while active == True:
