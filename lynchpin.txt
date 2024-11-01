@@ -134,3 +134,9 @@
 2024-10-30 35%
 {'code': 0, 'data': {'progress': 35}, 'msg': ''}
 
+2024-10-31 0%
+{'code': 0, 'data': {'progress': 0}, 'msg': ''}
+
+2024-11-01 4%
+{'code': 0, 'data': {'progress': 4}, 'msg': ''}
+
