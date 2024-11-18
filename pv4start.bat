@@ -1,1 +1,0 @@
-python D:\programing\python\pv4\lynchpin.py
