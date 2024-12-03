@@ -29,17 +29,17 @@ toaster = ToastNotifier()
 toaster.show_toast("lynchpin",f"{t} 的lynchpin是{number}%\n{responce_1}",duration=10)
 
 #提取上一次请求的日期
-with open("D:\\programing\\python\\pv4\\latest_date.txt","r",encoding='utf-8') as file:
+with open("latest_date.txt","r",encoding='utf-8') as file:
     date = file.read()
 
 #判断是否已经存储过今日的响应，若是则不写入
 if date != t:
     #存储响应结果
-    with open("D:\\programing\\python\\pv4\\lynchpin.txt","a",encoding='utf-8') as file:
+    with open("lynchpin.txt","a",encoding='utf-8') as file:
         file.write(f"{t} {number}%\n{responce_2}\n\n")
     
     #覆写今日请求日期
-    with open("D:\\programing\\python\\pv4\\latest_date.txt","w",encoding='utf-8') as file:
+    with open("latest_date.txt","w",encoding='utf-8') as file:
         file.write(f"{t}")
     
     print(f"写入完成：{number}%")
