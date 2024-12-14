@@ -236,3 +236,18 @@
 2024-12-08 12%
 {'code': 0, 'data': {'progress': 12}, 'msg': ''}
 
+2024-12-09 15%
+{'code': 0, 'data': {'progress': 15}, 'msg': ''}
+
+2024-12-11 33%
+{'code': 0, 'data': {'progress': 33}, 'msg': ''}
+
+2024-12-12 34%
+{'code': 0, 'data': {'progress': 34}, 'msg': ''}
+
+2024-12-13 35%
+{'code': 0, 'data': {'progress': 35}, 'msg': ''}
+
+2024-12-14 35%
+{'code': 0, 'data': {'progress': 35}, 'msg': ''}
+
