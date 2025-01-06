@@ -299,3 +299,18 @@
 2025-01-01 35%
 {'code': 0, 'data': {'progress': 35}, 'msg': ''}
 
+2025-01-02 0%
+{'code': 0, 'data': {'progress': 0}, 'msg': ''}
+
+2025-01-03 4%
+{'code': 0, 'data': {'progress': 4}, 'msg': ''}
+
+2025-01-04 12%
+{'code': 0, 'data': {'progress': 12}, 'msg': ''}
+
+2025-01-05 15%
+{'code': 0, 'data': {'progress': 15}, 'msg': ''}
+
+2025-01-06 24%
+{'code': 0, 'data': {'progress': 24}, 'msg': ''}
+
