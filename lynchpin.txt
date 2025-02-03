@@ -386,3 +386,9 @@
 2025-02-01 15%
 {'code': 0, 'data': {'progress': 15}, 'msg': ''}
 
+2025-02-02 24%
+{'code': 0, 'data': {'progress': 24}, 'msg': ''}
+
+2025-02-03 33%
+{'code': 0, 'data': {'progress': 33}, 'msg': ''}
+
