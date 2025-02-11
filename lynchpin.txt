@@ -392,3 +392,27 @@
 2025-02-03 33%
 {'code': 0, 'data': {'progress': 33}, 'msg': ''}
 
+2025-02-04 34%
+{'code': 0, 'data': {'progress': 34}, 'msg': ''}
+
+2025-02-05 35%
+{'code': 0, 'data': {'progress': 35}, 'msg': ''}
+
+2025-02-06 35%
+{'code': 0, 'data': {'progress': 35}, 'msg': ''}
+
+2025-02-07 0%
+{'code': 0, 'data': {'progress': 0}, 'msg': ''}
+
+2025-02-08 4%
+{'code': 0, 'data': {'progress': 4}, 'msg': ''}
+
+2025-02-09 12%
+{'code': 0, 'data': {'progress': 12}, 'msg': ''}
+
+2025-02-10 15%
+{'code': 0, 'data': {'progress': 15}, 'msg': ''}
+
+2025-02-11 24%
+{'code': 0, 'data': {'progress': 24}, 'msg': ''}
+
