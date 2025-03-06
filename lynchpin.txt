@@ -470,3 +470,15 @@
 2025-03-02 34%
 {'code': 0, 'data': {'progress': 34}, 'msg': ''}
 
+2025-03-03 35%
+{'code': 0, 'data': {'progress': 35}, 'msg': ''}
+
+2025-03-04 35%
+{'code': 0, 'data': {'progress': 35}, 'msg': ''}
+
+2025-03-05 0%
+{'code': 0, 'data': {'progress': 0}, 'msg': ''}
+
+2025-03-06 4%
+{'code': 0, 'data': {'progress': 4}, 'msg': ''}
+
