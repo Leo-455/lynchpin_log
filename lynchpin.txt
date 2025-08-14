@@ -875,3 +875,54 @@
 2025-07-28 4%
 {'code': 0, 'data': {'progress': 4}, 'msg': ''}
 
+2025-07-29 12%
+{'code': 0, 'data': {'progress': 12}, 'msg': ''}
+
+2025-07-30 15%
+{'code': 0, 'data': {'progress': 15}, 'msg': ''}
+
+2025-07-31 24%
+{'code': 0, 'data': {'progress': 24}, 'msg': ''}
+
+2025-08-01 33%
+{'code': 0, 'data': {'progress': 33}, 'msg': ''}
+
+2025-08-02 34%
+{'code': 0, 'data': {'progress': 34}, 'msg': ''}
+
+2025-08-03 35%
+{'code': 0, 'data': {'progress': 35}, 'msg': ''}
+
+2025-08-04 35%
+{'code': 0, 'data': {'progress': 35}, 'msg': ''}
+
+2025-08-05 0%
+{'code': 0, 'data': {'progress': 0}, 'msg': ''}
+
+2025-08-06 4%
+{'code': 0, 'data': {'progress': 4}, 'msg': ''}
+
+2025-08-07 12%
+{'code': 0, 'data': {'progress': 12}, 'msg': ''}
+
+2025-08-08 15%
+{'code': 0, 'data': {'progress': 15}, 'msg': ''}
+
+2025-08-09 24%
+{'code': 0, 'data': {'progress': 24}, 'msg': ''}
+
+2025-08-10 33%
+{'code': 0, 'data': {'progress': 33}, 'msg': ''}
+
+2025-08-11 34%
+{'code': 0, 'data': {'progress': 34}, 'msg': ''}
+
+2025-08-12 35%
+{'code': 0, 'data': {'progress': 35}, 'msg': ''}
+
+2025-08-13 35%
+{'code': 0, 'data': {'progress': 35}, 'msg': ''}
+
+2025-08-14 0%
+{'code': 0, 'data': {'progress': 0}, 'msg': ''}
+
