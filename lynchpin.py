@@ -29,19 +29,17 @@ toaster = ToastNotifier()
 toaster.show_toast("lynchpin", f"{t} 的lynchpin是{number}%\n{responce_1}", duration=10)
 
 # 提取上一次请求的日期
-with open("latest_date.txt", "r", encoding='utf-8') as file:
-    date = file.read()
+with open("lynchpin.json", 'r', encoding='utf-8') as f:
+    json_data = json.load(f)
+    date = json_data["update_time"]
 
 # 判断是否已经存储过今日的响应，若是则不写入
 if date != t:
-    # 存储响应结果
-    with open("lynchpin.txt", "a", encoding='utf-8') as file:
-        file.write(f"{t} {number}%\n{responce_2}\n\n")
-
-    # 覆写今日请求日期
-    with open("latest_date.txt", "w", encoding='utf-8') as file:
-        file.write(f"{t}")
+    json_data["update_time"] = t
+    json_data["data"][f"{t}"] = {"progress": number, "original_msg": responce_2}
+    with open("lynchpin.json", 'w', encoding='utf-8') as file:
+        json.dump(json_data, file)
 
     print(f"写入完成：{number}%")
 else:
-    print(f"今日写入已记录：{number}%")
+    print(f"今日写入已记录过：{number}%")
