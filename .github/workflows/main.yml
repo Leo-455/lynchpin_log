@@ -1,0 +1,38 @@
+name: Auto Update Lynchpin 
+
+on:
+  schedule:
+    - cron: "10 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  UpdateLynchpin:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: check out
+      uses: actions/checkout@v6.0.0
+
+    - name: steup python 
+      uses: actions/setup-python@v6.1.0
+      with: 
+          python-version: 3.12
+
+    - name: install dependency
+      run: pip install requests
+
+    - name: run scripts
+      run: python lynchpin_actions.py
+
+    - name: commit change
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add lynchpin.json
+        git commit -m "Update log"
+
+    - name: push changes
+      run: git push
