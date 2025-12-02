@@ -1,7 +1,7 @@
 # lynchpin_log
 
 
-明日方舟pv4解谜中[lynchpin网站](https://ak.hypergryph.com/lynchpin)的循环百分数记录。
+明日方舟[pv4解谜](https://github.com/Leo-455/Arknights-PV4-ARG-Docs)中[lynchpin网站](https://ak.hypergryph.com/lynchpin)的循环百分数记录。
 
 
 数据来自：`https://ak.hypergryph.com/lynchpin/api/meta`
