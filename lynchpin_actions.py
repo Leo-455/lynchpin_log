@@ -8,7 +8,6 @@ import requests
 url = "https://ak.hypergryph.com/lynchpin/api/meta"  # lynchpin API
 success = False
 
-
 for i in range(5):
     try:
         print(f"进行第{i}次请求. . .")
@@ -43,3 +42,4 @@ if date != t:
     print(f"写入完成：{number}%")
 else:
     print(f"今日写入已记录过：{number}%")
+    sys.exit(0)
