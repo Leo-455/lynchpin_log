@@ -25,7 +25,10 @@ if success is False:
     sys.exit(1)
 
 number = responce["data"]["progress"]  # 提取百分数
-t = time.strftime("%Y-%m-%d", time.localtime())  # 请求当前日期
+
+utc_time = time.time()
+bjt = time.gmtime(utc_time + 8 * 3600)
+t = time.strftime("%Y-%m-%d", bjt)
 
 # 提取上一次请求的日期
 with open("lynchpin.json", 'r', encoding='utf-8') as f:
