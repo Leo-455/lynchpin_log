@@ -40,7 +40,7 @@ if date != t:
     json_data["update_time"] = t
     json_data["data"][f"{t}"] = {"progress": number, "original_msg": responce}
     with open("lynchpin.json", 'w', encoding='utf-8') as file:
-        json.dump(json_data, file)
+        json.dump(json_data, file, indent=4)
 
     print(f"写入完成：{number}%")
 else:
