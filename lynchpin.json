@@ -1,5 +1,5 @@
 {
-    "update_time": "2026-01-31",
+    "update_time": "2026-02-01",
     "data": {
         "2024-05-16": {
             "progress": 15,
@@ -4539,6 +4539,16 @@
                 "code": 0,
                 "data": {
                     "progress": 35
+                },
+                "msg": ""
+            }
+        },
+        "2026-02-01": {
+            "progress": 0,
+            "original_msg": {
+                "code": 0,
+                "data": {
+                    "progress": 0
                 },
                 "msg": ""
             }
